@@ -32,7 +32,7 @@ export default function Auth() {
 
           <div className='input-container'>
             <input
-              placeholder="username"
+              placeholder="your name"
               className='text-input'
               onChange={e => setUsername(e.target.value)}
             />
