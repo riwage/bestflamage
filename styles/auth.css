@@ -3,8 +3,10 @@
   position: absolute;
   top: 0px;
   left: 0px;
-  width: calc(100vw - 200px);
-  height: calc(100vh - 200px);
+  background: linear-gradient(150deg, #ffffff, #ffffff 100%, #ffffff 0);
+}
+
+.chatbackground {
   background: linear-gradient(150deg, #ffffff, #ffffff 100%, #ffffff 0);
 }
 
