@@ -32,10 +32,11 @@ export default function Chats() {
   if (!showChat) return <div />;
 
   return (
-    <div className="background">
+    <div className="chatbackground">
       <div className='shadow'>
         <ChatEngine
-          height='calc(100vh - 200px)'
+          height='calc(100vh - 18px)'
+          width='calc(100vh - 10px)'
           projectID='daad7c47-08f2-42cf-8693-c35249d9a12d'          
           userName={username}
           userSecret={secret}
