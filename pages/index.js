@@ -32,7 +32,7 @@ export default function Auth() {
 
           <div className='input-container'>
             <input
-              placeholder="Enter your name"
+              placeholder="Your first name"
               className='text-input'
               onChange={e => setUsername(e.target.value)}
             />
@@ -41,7 +41,7 @@ export default function Auth() {
           <div className='input-container'>
             <input
               type='password'
-              placeholder="Enter your password"
+              placeholder="Password"
               className='text-input'
               onChange={e => setSecret(e.target.value)}
             />
@@ -58,4 +58,5 @@ export default function Auth() {
     </div>
     );
 }
+
 
